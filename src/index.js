@@ -4,7 +4,7 @@ import './index.css';
 import { App } from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
+/* 
 function Componente (props){
 
     const {titulo, parrafo} = props;
@@ -17,7 +17,7 @@ function Componente (props){
       <p>{parrafo}</p>
     </div>
     );
-}
+} */
 //root.render(<Componente titulo="Titulo Dinamico" parrafo="Parrafo dinamico" />);
 root.render(<App />);
 
