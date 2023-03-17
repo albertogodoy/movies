@@ -6,7 +6,7 @@ import { LandingPage }  from './pages/LandingPage';
 export function App(){
     return( <Router>
         <header>
-            <Link to="/"><h1 className={styles.title}>Peliculas</h1></Link>
+            <Link to="/"><h1 className={styles.title}>🍿🍿 Peliculas 🍿🍿</h1></Link>
         </header>
         <main>
             <Switch>
