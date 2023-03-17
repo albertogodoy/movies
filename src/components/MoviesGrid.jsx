@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { get } from '../utils/httpClient';
 import { MovieCard } from './MovieCard';
 import { Loader } from '../components/Loader';
-import { useQuery } from '../hooks/useQuery.jsx'
 import styles from './MoviesGrid.module.css';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Empty } from './Empty';
